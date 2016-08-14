@@ -12,18 +12,17 @@ $(document).ready (function () {
 
 
     $('.row').click(function () {
-    $('.wrapper').css('display','none');
+
+      $(this).addClass('clicked');
+      console.log('clicked')
+      $("wrapper:not(this)").removeClass('clicked');
+      $('clicked').find('.wrapper').slideToggle();
+
+    /*$('.wrapper').css('display','none');
     $(this).find('.wrapper').slideToggle();
-    });
+    }); */
 
-
-
-
-
-
-   
-    
   });
     
-    
+      });
   
