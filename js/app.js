@@ -13,9 +13,15 @@ $(document).ready (function () {
 
     $('.row').click(function () {
 
-      $(this).addClass('clicked');
+      ('.row').find('.wrapper').removeClass('clicked');
+      $(this).find('.wrapper').addClass('clicked');
+      $('clicked').find('.wrapper').slideToggle();
+
+
+     /* $(this).find('.wrapper').addClass('clicked');
       console.log('clicked')
-      $(:not(this).removeClass('clicked');
+
+      :not(this).removeClass('clicked');
       $('clicked').find('.wrapper').slideToggle();
 
     /*$('.wrapper').css('display','none');
