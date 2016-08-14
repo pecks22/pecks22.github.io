@@ -588,11 +588,12 @@ transition: all 0.7s ease-in-out;
   border: solid #ff8000 3px;
   background-color: #F0F1EC;
   border-bottom: none;
+  margin-top: 0%;
 
 }
 
 #wrapper {
-  width: 60%;
+  width: 59%;
   overflow: auto;
   float:right;
   margin-bottom: 50px auto;
