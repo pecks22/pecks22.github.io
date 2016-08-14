@@ -13,7 +13,7 @@ $(document).ready (function () {
 
     $('.row').click(function () {
 
-      ('.row').find('.wrapper').removeClass('clicked');
+      $('.row').find('.wrapper').removeClass('clicked');
       $(this).find('.wrapper').addClass('clicked');
       $('clicked').find('.wrapper').slideToggle();
 

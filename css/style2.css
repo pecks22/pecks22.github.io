@@ -693,7 +693,7 @@ transition: all 0.7s ease-in-out;
 @media (max-width: 1148px) {
 
   nav a {
-    font-size: 1.8em;
+    font-size: 1em;
   }
 
 }
@@ -768,7 +768,7 @@ transition: all 0.7s ease-in-out;
 @media (max-width: 1041px) {
 
   nav a {
-    font-size: 1.6em;
+    font-size: .9em;
   }
 
   }
