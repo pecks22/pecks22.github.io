@@ -97,14 +97,16 @@ iframe {
 }
 
 
+.homeicon {
+
+	height: 60px; 
+ 
 }
 
-@media (max-width: 827px) {
-
-		body #title {
+body #title {
 	font-size: 60px;
-
 }
+
 
 }
 
@@ -140,14 +142,62 @@ iframe {
 
 	}
 
-	@media (max-width: 584px) {
+
+	@media (max-width: 629px) {
 
 		body #title {
 	font-size: 50px;
 
 }
+	.homeicon {
+
+	height: 50px; 
+ 
+}
+
 
 
 
 	}
 
+
+	@media (max-width: 584px) {
+
+		body #title {
+	font-size: 45px;
+
+}
+
+	.homeicon {
+
+	height: 45px; 
+
+
+	}
+
+	#rightpanel {
+		margin-left: 1%;
+	}
+
+	#rightpanel p {
+
+		margin-left: 1%;
+	}
+
+	#rightpanel img {
+		padding-left: 1%;
+
+	}
+
+	#rightpanel p {
+    font-size: 15px;
+
+}
+
+	#rightpanel {
+	width: 98%;
+}
+
+
+
+	}

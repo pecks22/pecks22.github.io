@@ -34,8 +34,6 @@ body #title {
 .homeicon {
 	display:inline-block;
 	float: right;
-	margin-right: 5%;
-	margin-top: 2%;
 	z-index: 1000;
 	height: 80px; 
     margin-top: 1%;
@@ -101,8 +99,47 @@ iframe {
     float: right;
 }
 
+#facebook img{
+
+	height: 60px;
+	
+}
+
+.homeicon {
+
+	height: 60px; 
+ 
+}
+
+body #title {
+	font-size: 60px;
+}
+
 
 }
+
+@media (max-width: 716px) {
+
+	body #title {
+	font-size: 55px;
+
+
+	}
+
+	.homeicon {
+
+	height: 55px; 
+ 
+}
+
+#facebook img{
+
+	height: 55px;
+	
+}
+
+}
+
 
 @media (max-width: 689px) {
 
@@ -136,16 +173,60 @@ iframe {
 
 	}
 
-	@media (max-width: 584px) {
+
+	@media (max-width: 629px) {
 
 		body #title {
 	font-size: 50px;
 
 }
+	.homeicon {
+
+	height: 50px; 
+ 
+}
+
+#facebook img{
+
+	height: 50px;
+	
+}
 
 
 
 	}
+
+
+	@media (max-width: 584px) {
+
+		body #title {
+	font-size: 35px;
+
+}
+
+.homeicon {
+
+	height: 30px; 
+
+
+	}
+
+	#facebook img {
+
+	height: 30px;
+	
+}
+
+#rightpanel p {
+    font-size: 15px;
+
+}
+
+#rightpanel {
+	width: 98%;
+}
+
+}
 
 
 

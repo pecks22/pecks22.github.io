@@ -275,6 +275,11 @@ nav li {
 
 }
 
+#call {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
 
 
 /* Three boxes */
@@ -577,6 +582,7 @@ transition: all 0.7s ease-in-out;
 .explore_route {
 	width: auto;
 	height: 200px;
+  background-color: none;
 
 }
 
