@@ -593,11 +593,12 @@ transition: all 0.7s ease-in-out;
   font-size: 5.1em;
     padding-top: 4%;
     padding: 1%;
+    margin-top:0%;
 
 }
 
 #wrapper {
-  width: 59%;
+  width: 57%;
   overflow: auto;
   float:right;
   margin-bottom: 50px auto;

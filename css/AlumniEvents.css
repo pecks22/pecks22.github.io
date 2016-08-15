@@ -20,13 +20,13 @@ body #title {
 	margin-top: 2%;
 }
 
-#homeicon {
+.homeicon {
 	display:inline-block;
 	float: right;
 	margin-right: 5%;
 	margin-top: 2%;
 	z-index: 1000;
-	height: 80px;
+	height: 80px !important; 
     margin-top: 1%;
     margin-right: 3%;
 }

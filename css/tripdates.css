@@ -2,6 +2,7 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: #D7CDC4;
+	display:block;
 }
 
 body #title {
@@ -10,10 +11,24 @@ body #title {
     margin-top: 1%;
     margin-bottom: 1%;
     color: black;
+    display: inline-block;
+    float: left;
+
 }
 
-#calendarTitle {
-	display:none;
+.date-top {
+	color:white;
+}
+
+.homeicon {
+	display:inline-block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
+	z-index: 1000;
+	height: 80px; 
+    margin-top: 1%;
+    margin-right: 3%;
 }
 
 #rightpanel {
