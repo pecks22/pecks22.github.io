@@ -25,6 +25,10 @@ body #title {
 	float: right;
 	margin-right: 5%;
 	margin-top: 2%;
+	z-index: 1000;
+	height: 80px;
+    margin-top: 1%;
+    margin-right: 3%;
 }
 
 #calendarTitle {
