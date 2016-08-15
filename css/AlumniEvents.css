@@ -19,6 +19,14 @@ body #title {
 	margin-right: 5%;
 	margin-top: 2%;
 }
+
+#homeicon {
+	display:inline-block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
+}
+
 #calendarTitle {
 	display:none;
 }

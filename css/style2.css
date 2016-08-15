@@ -118,7 +118,7 @@ nav li {
 }
 
 #home {
-  border: solid red 1px;
+  border: solid #ff6600 1px;
 }
 
 #hiddendiv {
@@ -582,17 +582,17 @@ transition: all 0.7s ease-in-out;
 
 
 #exploreheading {
-	font-size: 3.5em;
 	font-family: 'Lato';
 	text-align: center;
 	color: #ff8000;
   width: 40%;
-  height: 300px;
+  height: 350px;
   float: left;
   border: solid #ff8000 3px;
   background-color: #F0F1EC;
-  border-bottom: none;
-  margin-top: 0%;
+  font-size: 5.1em;
+    padding-top: 4%;
+    padding: 1%;
 
 }
 
@@ -884,7 +884,10 @@ nav li{
 
 
 
-
+#exploreheading {
+  font-size: 3em;
+  padding-top: 8%;
+}
 
 .action {
   height: 22em;
@@ -997,10 +1000,6 @@ nav li{
   margin-top:8%;
 }
 
-#exploreheading {
-  font-size: 2.9em;
-  margin-top:0%;
-}
 
 #hiddendiv {
   font-size: .9em;
@@ -1062,10 +1061,6 @@ nav li{
 
 }
 
-#exploreheading {
-  font-size: 2em;
-
-}
 
 @media (max-width: 539px) {
   .polaroid {
@@ -1106,6 +1101,14 @@ nav li{
 
 #hidden {
   font-size: .4em;
+}
+
+.explore_route {
+  height: 350px;
+}
+
+#hidden {
+  display: inline-block;
 }
 
 }
