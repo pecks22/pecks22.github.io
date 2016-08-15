@@ -602,7 +602,6 @@ transition: all 0.7s ease-in-out;
   overflow: auto;
   float:right;
   margin-bottom: 50px auto;
-  /*margin-top: -25%;*/
 }
 
 .row {
@@ -1091,6 +1090,10 @@ nav li{
   height: 18%;
 }
 
+#wrapper {
+  width: 55%;
+}
+
 }
 
 @media (max-width: 400px) {
@@ -1110,6 +1113,11 @@ nav li{
 
 #hidden {
   display: inline-block;
+}
+
+
+#exploreheading {
+  font-size: 2.6em;
 }
 
 }
