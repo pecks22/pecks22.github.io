@@ -13,12 +13,7 @@ body #title {
     display: inline-block;
     float: left;
 }
-#facebook {
-	display:inline-block;
-	float: right;
-	margin-right: 5%;
-	margin-top: 2%;
-}
+
 
 .calendar {
 	display:inline-block;
@@ -101,6 +96,15 @@ iframe {
     float: right;
 }
 
+
+}
+
+@media (max-width: 827px) {
+
+		body #title {
+	font-size: 60px;
+
+}
 
 }
 
