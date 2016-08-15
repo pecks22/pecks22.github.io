@@ -67,6 +67,7 @@ body #title {
 }
 
 /* MEDIA QUERIES */
+
 @media (max-width: 891px) {
 
 
@@ -93,7 +94,7 @@ iframe {
     margin-right: 3%;
     font-size: 22px;
     float: right;
-    }
+}
 
 
 .homeicon {
