@@ -20,6 +20,17 @@ body #title {
 	margin-top: 2%;
 }
 
+.calendar {
+	display:inline-block;
+	float: left;
+}
+
+.calendardiv {
+	height: 500px;
+	display: inline-block;
+	float: left;
+}
+
 .homeicon {
 	display:inline-block;
 	float: right;

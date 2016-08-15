@@ -2,7 +2,6 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: #D7CDC4;
-	display:block;
 }
 
 body #title {
@@ -13,11 +12,23 @@ body #title {
     color: black;
     display: inline-block;
     float: left;
-
+}
+#facebook {
+	display:inline-block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
 }
 
-.date-top {
-	color:white;
+.calendar {
+	display:inline-block;
+	float: left;
+}
+
+.calendardiv {
+	height: 500px;
+	display: inline-block;
+	float: left;
 }
 
 .homeicon {
@@ -29,6 +40,10 @@ body #title {
 	height: 80px; 
     margin-top: 1%;
     margin-right: 3%;
+}
+
+#calendarTitle {
+	display:none;
 }
 
 #rightpanel {
@@ -131,3 +146,4 @@ iframe {
 
 
 	}
+
