@@ -117,6 +117,10 @@ nav li {
 
 }
 
+#home {
+  border: solid red 1px;
+}
+
 #hiddendiv {
   position: absolute;
   right: 0;
