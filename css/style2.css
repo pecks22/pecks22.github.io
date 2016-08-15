@@ -1061,6 +1061,12 @@ nav li{
 }
 
 }
+
+#exploreheading {
+  font-size: 2em;
+
+}
+
 @media (max-width: 539px) {
   .polaroid {
   width: 100px;
