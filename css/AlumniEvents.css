@@ -54,7 +54,10 @@ body #title {
 
 .topdiv img {
 	float:right;
-	position:absolute;
+	margin-right:11%;
+	margin-top:1%;
+	position:relative;
+	z-index: 500;
 }
 
 .description p {
