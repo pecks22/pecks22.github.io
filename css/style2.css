@@ -39,7 +39,7 @@ nav ul {
 
 	 list-style-type: none;
     position: relative;
-    margin-top: 47%;
+    margin-top: 48.5%;
     padding-left: 0;
     margin-left: 5%;
 }
@@ -706,6 +706,8 @@ transition: all 0.7s ease-in-out;
   height:260px;
   background-color:#0F1742;
   color: #bfbfbf;
+  font-family: 'Lato', Helvetica, sans-serif;
+
 }
 
 
@@ -726,6 +728,7 @@ transition: all 0.7s ease-in-out;
 
 .contactheading {
   font-size:2em;
+  padding-top:1%;
 
 }
 
@@ -752,7 +755,7 @@ transition: all 0.7s ease-in-out;
     left: 50%;
   }
   .timeline > li {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
@@ -1219,7 +1222,6 @@ nav li{
 }
 
 }
-
 
 @media (max-width: 539px) {
   .polaroid {
