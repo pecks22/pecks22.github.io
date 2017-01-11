@@ -37,9 +37,9 @@ nav {
 
 nav ul {
 
-	   list-style-type: none;
+	 list-style-type: none;
     position: relative;
-    margin-top: 45%;
+    margin-top: 47%;
     padding-left: 0;
     margin-left: 5%;
 }
@@ -66,8 +66,8 @@ nav li {
 
 nav li:hover {
 text-decoration: underline;
-   background-color: #0F1742;
-   padding: 1%;
+color: #0F1742;
+padding: 1%;
 
 
 
@@ -103,7 +103,7 @@ nav  a:hover {
 nav li {
 
 	    font-size: 20px;
-    margin-right: 10%;
+    margin-right: 6%;
     color: rgb(0,55,119);
     text-decoration: none;
     display: inline;
@@ -256,15 +256,12 @@ nav li {
 	margin-left: 5%;
 	font-size: 1.4em;
     z-index: 1;
-    position: relative;
     font-family: 'Lato';
     position: absolute;
     left: 40%;
     top: 0;
     margin-top: 12%;
     padding-right: 14%;
-    font-family: 'Cardo', serif;
-    font-style: italic;
     font-weight: 400px;
 
 }
@@ -453,10 +450,10 @@ transition: all 0.7s ease-in-out;
 /* End of Three boxes */
 
 
-/
 
 
-/* Itinerary */
+
+/* Polaroid CSS */
 
 
 
@@ -561,8 +558,49 @@ transition: all 0.7s ease-in-out;
   -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 }
 
+/*End of Polaroid CSS */
 
+/* Testimonial CSS */
 
+.section-heading {
+  color:#0F1742;
+}
+
+#testimonials {
+  margin-bottom: 4%;
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.lovecoar {
+  margin-bottom:4%;
+}
+
+#testimonialpic {
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+  
+}
+.testimonialtext {
+  margin-top:5%;
+}
+/* End of Testimonial CSS */
+
+.itinerarypic {
+  height: 150px;
+
+  border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+
+}
+
+#about h2{
+  font-size:2.6em;
+  margin-top:4%;
+  margin-bottom:5%;
+  font-family: 'Lato', Helvetica, sans-serif;
+}
 .timeline {
   list-style: none;
   padding: 0;
@@ -617,15 +655,16 @@ transition: all 0.7s ease-in-out;
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
   text-align: center;
 }
+
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
-  margin-top: 12px;
+  font-size: 14px;
+  margin-top: 8px;
   line-height: 14px;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -661,11 +700,50 @@ transition: all 0.7s ease-in-out;
 }
 
 
+/*bottom Contact Info CSS */
 .contactinfo {
   width:100%;
-  height:250px;
-  background-color:blue;
+  height:260px;
+  background-color:#0F1742;
+  color: #bfbfbf;
 }
+
+
+.contactinfo {
+  font-size: 1.2em;
+}
+
+.contactinfo p {
+  margin-left:2%;
+}
+.contactinfo img {
+  width:350px;
+  height:240px;
+  float: right;
+  margin-right:2%;
+  margin-top:1%;
+}
+
+.contactheading {
+  font-size:2em;
+
+}
+
+
+.contacttext {
+  font-size: 1.1em;
+}
+
+.contact {
+  margin-top:2%;
+}
+
+#websitedesign {
+  margin-top:6%;
+  color:#999999;
+}
+
+/* End of Contact Info CSS */
 
 /*timeline media queries */
 
@@ -995,7 +1073,7 @@ nav li{
 .text {
   color: white;
     font-size: 1.7em;
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', Helvetica, sans-serif;
 
 }
 
