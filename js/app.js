@@ -17,5 +17,7 @@ $(document).ready (function () {
     
 
   });
+
+    document.getElementById("#video").defaultPlaybackRate = 2.0;
     
       });

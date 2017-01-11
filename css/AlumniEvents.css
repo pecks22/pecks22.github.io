@@ -1,35 +1,61 @@
 body {
 	width: 100%;
 	height: 100%;
-	background-color: #D7CDC4;
+	display:block;
+	background-image: url('../images/alumniwoods.jpg');
+
 }
+
+
+
 
 body #title {
 	font-size: 80px;
     font-family: 'Londrina Outline', sans-serif;
     margin-top: 1%;
     margin-bottom: 1%;
-    color: black;
-    display: inline-block;
-    float: left;
+ 	color:white;
+    margin-left:10%;
+
+
 }
+
+#title{
+	margin-top: -60%;
+}
+
 #facebook {
-	display:inline-block;
+	
 	float: right;
 	margin-right: 5%;
 	margin-top: 2%;
 }
 
-.calendar {
+
+.description {
+	width:100%;
+	height:20%;
+	float:left;
+	margin-left:10%;
 	display:inline-block;
-	float: left;
 }
 
-.calendardiv {
-	height: 500px;
-	display: inline-block;
-	float: left;
+.abovecal {
+	width:80%;
+	margin-left:10%;
+	height:200px;
+	background-color: #556B2F;
+	opacity: .4;
+	
 }
+.description p {
+	width:80%;
+	height: 100%;
+	color:white;
+	font-size:1.2em;
+	
+}
+
 
 .homeicon {
 	display:inline-block;
@@ -44,6 +70,11 @@ body #title {
 	display:none;
 }
 
+
+iframe {
+	margin-left: 10%;
+}
+/*
 #rightpanel {
 
 	float: right;
@@ -67,7 +98,7 @@ body #title {
     margin-left: 7%;
     margin-top: 9%;
     font-size: 22px;
-}
+}/*
 
 /* MEDIA QUERIES */
 
