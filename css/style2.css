@@ -39,7 +39,7 @@ nav ul {
 
 	 list-style-type: none;
     position: relative;
-    margin-top: 47%;
+    margin-top: 46%;
     padding-left: 0;
     margin-left: 5%;
 }
@@ -567,7 +567,7 @@ transition: all 0.7s ease-in-out;
 
 .section-heading {
   color:#0F1742;
-  margin-top:5%;
+  text-decoration:underline;
 }
 
 #testimonials {
@@ -593,8 +593,11 @@ transition: all 0.7s ease-in-out;
   
 }
 .testimonialtext {
-  margin-top:5%;
-  color:#0F1742;
+  margin-top: 5%;
+  color: #0F1742;
+  text-align: left;
+  border-left: black solid 1px;
+  padding-left: 2%;
 }
 /* End of Testimonial CSS */
 
