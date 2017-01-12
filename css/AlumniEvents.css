@@ -10,12 +10,13 @@ body {
 
 
 body #title {
-	font-size: 80px;
-    font-family: 'Londrina Outline', sans-serif;
+	font-size: 70px;
+    font-family: 'Lato',Helvetica, sans-serif;
     margin-top: 1%;
     margin-bottom: 1%;
  	color:white;
     margin-left:10%;
+    font-weight:300px;
 
 
 }
@@ -46,7 +47,7 @@ body #title {
 	width:80%;
 	margin-left:10%;
 	height:200px;
-	background-color: #556B2F;
+	background-color: #0F1742;
 	opacity: .4;
 	position:absolute;
 	
