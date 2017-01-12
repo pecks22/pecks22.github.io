@@ -10,11 +10,11 @@ body {
 
 
 body #title {
-	font-size: 70px;
+	font-size: 80px;
     font-family: 'Lato',Helvetica, sans-serif;
     margin-top: 1%;
     margin-bottom: 1%;
- 	color:white;
+ 	color: #f2f2f2;
     margin-left:10%;
     font-weight:300px;
 
@@ -26,7 +26,7 @@ body #title {
 	position:relative;
 }
 
-#facebook {
+.topdiv img{
 	
 	float: right;
 	margin-right: 5%;
@@ -64,20 +64,27 @@ body #title {
 .description p {
 	width:80%;
 	height: 100%;
-	color:white;
+	color: #e6e6e6;
 	font-size:1.2em;
 	position:relative;
 	
 }
 
 
-.homeicon {
-	display:inline-block;
-	float: right;
-	z-index: 1000;
-	height: 80px; 
-    margin-top: 1%;
-    margin-right: 3%;
+
+#home {
+	float:right;
+	color:white;
+	position:relative;
+	font-size:1.2em;
+	margin-top:4.2%;
+	margin-right:2%;
+	text-decoration: underline;
+
+}
+
+#home p:hover {
+	background-color:#ffe680;
 }
 
 #calendarTitle {
