@@ -15,13 +15,13 @@ body {
 .intro_text {
 	width: 100%;
 	height: 200px;
-	background-color: #8FBC8F;
+	background-color: #0F1742;
 	text-align: center;
 	color:white;
 	box-sizing: border-box;
 	margin-top:0%;
 	padding-top: 2%;
-	font-family: 'Londrina Solid', cursive;
+	font-family: 'Lato',Helvetica,sans-serif;
 }
 
 #meetleaders {
@@ -50,14 +50,14 @@ body {
 
 }
 .generaltext {
-		font-family: 'EB Garamond', serif;
+		font-family: 'Lato',Helvetica,sans-serif;
 	font-size: 1.5em;
 }
 
 
 #name {
 	font-size: 150px;
-	font-family: 'Londrina Outline', sans-serif;
+	font-family: 'Lato',Helvetica,sans-serif;
 	color: green;
 
 }
