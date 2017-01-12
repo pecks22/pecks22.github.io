@@ -53,6 +53,11 @@ body {
 
 }
 
+.counselor {
+	padding-left:14%;
+	margin-bottom:5%;
+}
+
 .generaltext {
 	font-family: 'Lato',Helvetica,sans-serif;
 	font-size: 1.2em;
@@ -63,8 +68,15 @@ body {
 	font-size: 80px;
     font-family: 'Lato',Helvetica,sans-serif;
     color: #0F1742;
-    padding-top: 5%;
 
+}
+
+#name:first-child{
+	margin-top:5%;
+}
+
+.row {
+	padding-bottom:5%;
 }
 
 #picture {
