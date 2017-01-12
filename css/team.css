@@ -10,21 +10,17 @@ body {
 	
 }
 
-.homeicon {
-	position: absolute;
-	right: 0;
-	height: 55px;
-	z-index: 1000;
-	margin-right: 1%;
-}
+
 #home {
 	right:0;
 	position:absolute;
 	color:white;
 	margin-top:2%;
 	margin-right:5%;
-	font-size:1.2em;
+	font-size:1.4em;
 	z-index:1000;
+	background-color:#cca300;
+	padding:.3%;
 }
 #meetleaders {
     font-size: 70px;

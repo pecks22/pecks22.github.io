@@ -748,7 +748,7 @@ transition: all 0.7s ease-in-out;
 }
 
 .contactinfo p {
-  margin-left:5%;
+  margin-left:1%;
 }
 .contactinfo img {
   width:350px;
@@ -776,6 +776,14 @@ transition: all 0.7s ease-in-out;
 #websitedesign {
   margin-top:3.5%;
   color:#999999;
+}
+
+.contactdiv {
+  width:100%
+  height:auto;
+  margin-left:3%;
+  border-left: solid #F0F1EC 2px;
+  margin-top:1%;
 }
 
 /* End of Contact Info CSS */
