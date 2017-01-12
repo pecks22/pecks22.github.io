@@ -17,7 +17,15 @@ body {
 	z-index: 1000;
 	margin-right: 1%;
 }
-
+#home {
+	right:0;
+	position:absolute;
+	color:white;
+	margin-top:2%;
+	margin-right:5%;
+	font-size:1.2em;
+	z-index:1000;
+}
 #meetleaders {
     font-size: 70px;
     font-weight:300;
