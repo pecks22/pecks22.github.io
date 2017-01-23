@@ -112,7 +112,7 @@ nav  a:hover {
   height: 30%;
   background-color: #0F1742;
   margin-top:5.3%;
-  visibility: visible;
+  visibility: hidden;
   z-index:100;
 }
 
