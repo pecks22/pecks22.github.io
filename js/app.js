@@ -7,17 +7,11 @@ $(document).ready (function () {
 
   });
 
- 
+ console.log()
 
-    $('.row').click(function () {
-
-      $('.row').find('.wrapper').removeClass('clicked');
-      $(this).find('.wrapper').addClass('clicked');
-      $('.clicked').slideToggle();
-    
-
-  });
-
+  
     document.getElementById("#video").defaultPlaybackRate = 2.0;
+
+
     
       });
