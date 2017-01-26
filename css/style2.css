@@ -833,6 +833,13 @@ transform: scale(1.3);
 
   }
 
+   #longdescription {
+    font-size:1.3em;
+    margin-left: 6%;
+  }
+
+
+
 
 }
 
@@ -1044,15 +1051,13 @@ nav li{
 
 }
 
-@media (max-width: 775px) {
+@media (max-width: 780px) {
   .footsteps {
     width:100%;
     height:1000px;
   }
 
-  .contactheading {
-    height:200px;
-  }
+
 
   .contactinfo img {
   width:260px;
@@ -1119,7 +1124,7 @@ nav li{
 }
 
 .contactinfo {
-  height:300px;
+  height:240px;
 }
 
 .contactheading {
@@ -1254,6 +1259,12 @@ nav li{
     margin-top:10%;
     font-size: .77em;
   }
+
+  .contactinfo img {
+  width:180px;
+  height:150px;
+
+}
 }
 
 @media (max-width: 535px) {
@@ -1267,8 +1278,18 @@ nav li{
 
 .contactinfo {
   height:200px;
+  font-size: 1em;
+  line-height:1.6em;
 }
 
+}
+
+
+@media (max-width: 400px) {
+  .contactinfo img {
+    display:none;
+  }
+}
 
 }
 
