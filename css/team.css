@@ -4,11 +4,32 @@ body {
 	font-size: 16px;
 }
 
-.container {
-	width: 100%;
-	height: auto;
-	
+
+.carousel {
+	height:100%;
+	width:100%;
 }
+
+
+
+#carousel-pic {
+	max-width: 100%;
+	position:relative;
+
+}
+
+.carousel-inner{
+	height:740px;
+	position: relative;
+
+}
+
+ .carousel-inner > .item > img
+				  .carousel-inner > .item > a > img {
+				      width: 100%;
+				      height:auto;
+				      margin: auto;
+				  }
 
 
 #home {
@@ -22,19 +43,18 @@ body {
 	background-color:#cca300;
 	padding:.3%;
 }
+
 #meetleaders {
     font-size: 70px;
     font-weight:300;
 }
 
 .intro_text {
-	width: 100%;
+	
 	height: 200px;
 	background-color: #0F1742;
 	text-align: center;
 	color:white;
-	box-sizing: border-box;
-	margin-top:0%;
 	padding-top: 2%;
 	font-family: 'Lato',Helvetica,sans-serif;
 }
@@ -42,24 +62,15 @@ body {
 
 
 .textbody {
-	width: 100%;
-	height: 100%;
 	background-color: #F0F1EC;
 
 }
 
 
-
-}
-#text {
-	margin-top: 10%;
-
-
-}
-
 .counselor {
 	padding-left:14%;
 	margin-bottom:5%;
+
 }
 
 .generaltext {
@@ -92,31 +103,6 @@ body {
 }
 
 
-.carousel {
-	height:100%;
-	width:100%;
-}
-
-
-
-#carousel-pic {
-	max-width: 100%;
-	position:relative;
-
-}
-
-.carousel-inner{
-	height:740px;
-	position: relative;
-
-}
-
- .carousel-inner > .item > img
-				  .carousel-inner > .item > a > img {
-				      width: 100%;
-				      height:auto;
-				      margin: auto;
-				  }
 
 
 /* MEDIA QUERIES */
@@ -270,7 +256,7 @@ body {
 #linda #picture {
 	margin-top: 25%;
 }
-}
+
 
 
 

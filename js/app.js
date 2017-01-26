@@ -10,7 +10,7 @@ $(document).ready (function () {
  console.log()
 
   
-    document.getElementById("#video").defaultPlaybackRate = 2.0;
+  
 
 
     
