@@ -1285,13 +1285,18 @@ nav li{
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 504px) {
   .contactinfo img {
     display:none;
   }
+
+  #websitedesign {
+
+    font-size:.85em;
+  }
 }
 
-}
+
 
 @media (max-width: 400px) {
 #hiddendiv {

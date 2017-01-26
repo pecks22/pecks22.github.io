@@ -9,7 +9,7 @@ body {
 
 
 body #title {
-	font-size: 70px;
+	font-size: 230px;
     margin-top: 1%;
     margin-bottom: .1%;
  	color: #f2f2f2;
@@ -80,145 +80,30 @@ iframe {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1149px) {
+
+.decription p{
+	font-size:1em;
+
+}
+
+body #title {
+	font-size:200px;
+}
+
+.abovecal {
+	height:150px;
+}
+
+}
+
+
 @media (max-width: 891px) {
 
 
 
 iframe {
-	width: 100%;
-}
-
-#rightpanel {
-
-	width: 100%;
-	height: 332px;
-}
-
-#rightpanel img {
-	width: 50%;
-	object-fit:cover;
-	float: left;
-	height: 332px;
-}
-
-#rightpanel p {
-    width: 40%;
-    margin-right: 3%;
-    font-size: 22px;
-    float: right;
-}
-
-#facebook img{
-
-	height: 60px;
-	
-}
-
-
-
-body #title {
-	font-size: 60px;
-}
-
-
-}
-
-@media (max-width: 716px) {
-
-	body #title {
-	font-size: 55px;
-
-
-	}
-
-
-#facebook img{
-
-	height: 55px;
-	
+	width: 80%;
 }
 
 }
-
-
-@media (max-width: 689px) {
-
-iframe {
-	width: 100%;
-	height: 500px;
-}
-
-#rightpanel img {
-	width: 50%;
-	object-fit:cover;
-	float: left;
-	height: 332px;
-}
-
-#rightpanel img {
-	width: 100%;
-	height: 200px;
-}
-
-#rightpanel p {
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    margin-right: 0%;
-}
-
-
-
-
-	}
-
-
-	@media (max-width: 629px) {
-
-		body #title {
-	font-size: 50px;
-
-}
-	
-
-#facebook img{
-
-	height: 50px;
-	
-}
-
-
-
-	}
-
-
-	@media (max-width: 584px) {
-
-		body #title {
-	font-size: 35px;
-
-}
-
-
-	
-
-	#facebook img {
-
-	height: 30px;
-	
-}
-
-#rightpanel p {
-    font-size: 15px;
-
-}
-
-#rightpanel {
-	width: 98%;
-}
-
-}
-
-
-
