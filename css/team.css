@@ -44,15 +44,25 @@ body {
 	padding:.3%;
 }
 
+.backgroundblue {
+	width:80%;
+	margin-left:10%;
+	height:225px;
+	background-color: #0F1742;
+	opacity: .7;
+	position:absolute;
+	z-index:100;
+}
+
 #meetleaders {
-    font-size: 70px;
+    font-size: 120px;
     font-weight:300;
 }
 
 .intro_text {
 	
-	height: 200px;
-	background-color: #0F1742;
+	height: 350px;
+	background-image: url('../images/alumniwoods.jpg');
 	text-align: center;
 	color:white;
 	padding-top: 2%;
