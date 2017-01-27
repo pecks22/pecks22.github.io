@@ -23,6 +23,8 @@ body #title {
 	float:right;
 	margin-right:11%;
 	position:relative;
+	margin-top:2%;
+	z-index:10;
 
 }
 
@@ -41,10 +43,11 @@ body #title {
 .belowcal {
 	width:80%;
 	margin-left:10%;
-	height:160px;
+	height:182px;
 	background-color: #0F1742;
 	opacity: .7;
 	position:absolute;
+	margin-top:2%;
 
 	
 }
@@ -56,11 +59,11 @@ body #title {
 .description p {
 	width:80%;
 	color: #e6e6e6;
-	font-size:1.2em;
+	font-size:20px;
 	position:relative;
-	margin-top:6%;
-	font-weight:300;
-	margin-left:10.5%;
+	margin-top:10%;
+	font-weight:500;
+	margin-left:11%;
 }
 
 
@@ -73,7 +76,7 @@ body #title {
 	margin-right:2%;
 	text-decoration: underline;
 	z-index:10;
-	margin-top:4%;
+	margin-top:5.6%;
 
 }
 
@@ -88,15 +91,41 @@ body #title {
 
 iframe {
 	margin-left: 10%;
+	margin-top:.7%;
 }
 
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1339px) {
+
+	.belowcal {
+	
+	height:175px;
+
+}
+
+	}
+
+	@media (max-width: 1250px) {
+
+.decription p{
+	font-size:18px;
+
+}
+
+.belowcal {
+	
+	height:160px;
+
+	}
+}
+
+
 @media (max-width: 1149px) {
 
 .decription p{
-	font-size:1em;
+	font-size:16px;
 
 }
 
@@ -107,6 +136,8 @@ body #title {
 .abovecal {
 	height:150px;
 }
+
+
 
 }
 
@@ -120,3 +151,21 @@ iframe {
 }
 
 }
+
+
+@media (max-width: 891px) {
+
+.decription p{
+	font-size:14px;
+
+}
+
+.belowcal {
+	
+	height:1450px;
+
+	}
+}
+
+
+	}
