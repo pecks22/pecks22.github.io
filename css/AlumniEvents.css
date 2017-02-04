@@ -41,13 +41,14 @@ body #title {
 }
 
 .belowcal {
-	width:80%;
-	margin-left:10%;
-	height:182px;
-	background-color: #0F1742;
-	opacity: .7;
-	position:absolute;
-	margin-top:2%;
+	width: 25%;
+margin-left: 65%;
+height: 182px;
+background-color: #0F1742;
+opacity: .7;
+position: absolute;
+float: right;
+height: 650px;
 
 	
 }
@@ -57,13 +58,13 @@ body #title {
 
 
 .description p {
-	width:80%;
-	color: #e6e6e6;
-	font-size:20px;
-	position:relative;
-	margin-top:10%;
-	font-weight:500;
-	margin-left:11%;
+	width: 20%;
+color: #e6e6e6;
+font-size: 20px;
+position: absolute;
+margin-top: 20%;
+font-weight: 500;
+margin-left: 70%;
 }
 
 

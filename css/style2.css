@@ -1071,9 +1071,24 @@ nav li{
 
 
 
-
-
 }
+
+@media (max-width: 750px) {
+.absolute #hidden {
+
+  transition:none;
+}
+
+#hidden {
+  transition: none;
+}
+
+
+#hidden {
+transform: scale(1.3);
+}
+
+  }
 
 @media (max-width: 702px) {
 
