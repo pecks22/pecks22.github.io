@@ -128,22 +128,48 @@ iframe {
 }
 .belowcal {
 	float:none;
-    height: 200px;
-    margin-top: 46%;
+    height: 160px;
+    margin-top: 50%;
     margin-left:10%;
     width:80%;
 }
 
     .description p {
 
-    margin-top: 50%;
+    margin-top: 54%;
     margin-left: 12%;
     width:78%;
+    line-height:2;
 
 }
 
+@media (max-width: 921px) {
 
+.belowcal {
+	margin-top:56%;
+}
 
+ .description p {
+ 	margin-top:61%;
+}
+
+@media (max-width: 823px) {
+
+.belowcal {
+	margin-top:65%;
+}
+
+ .description p {
+ 	margin-top:69%;
+}
+
+@media (max-width: 753px) {
+
+body #title {
+    font-size: 100px;
+    padding-top: 25%;
+}
+}
 /*
 @media (max-width: 1339px) {
 
