@@ -41,14 +41,14 @@ z-index: 10;
 }
 
 .belowcal {
-width: 20%;
-margin-left: 70%;
+width: 18%;
+margin-left: 72%;
 height: 182px;
 background-color: #0F1742;
 opacity: .7;
 position: absolute;
 float: right;
-height: 650px;
+height: 720px;
 
 	
 }
@@ -58,13 +58,13 @@ height: 650px;
 
 
 .description p {
-width: 18%;
+width: 17%;
 color: #e6e6e6;
 font-size: 20px;
 position: absolute;
-margin-top: 17%;
+margin-top: 19%;
 font-weight: 500;
-margin-left: 72%;
+margin-left: 73.5%;
 line-height:2;
 }
 
@@ -99,6 +99,8 @@ iframe {
 
 /* MEDIA QUERIES */
 
+
+/*
 @media (max-width: 1339px) {
 
 	.belowcal {
@@ -170,4 +172,4 @@ iframe {
 }
 
 
-	}
+	} /*
