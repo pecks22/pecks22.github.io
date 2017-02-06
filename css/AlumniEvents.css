@@ -58,7 +58,7 @@ height: 720px;
 
 
 .description p {
-width: 17%;
+width: 16%;
 color: #e6e6e6;
 font-size: 20px;
 position: absolute;
@@ -98,6 +98,50 @@ iframe {
 
 
 /* MEDIA QUERIES */
+
+@media (max-width: 1196px) {
+
+	body #title {
+    font-size: 200px;
+}
+
+.belowcal {
+    width: 22%;
+    margin-left: 71%;
+
+    }
+
+    .description p {
+    width: 18%;
+    margin-top:23%;
+
+}
+
+@media (max-width: 1048px) {
+
+	body #title {
+    font-size: 160px;
+}
+
+.abovecal {
+	height:150px;
+}
+.belowcal {
+	float:none;
+    height: 200px;
+    margin-top: 46%;
+    margin-left:10%;
+    width:80%;
+}
+
+    .description p {
+
+    margin-top: 50%;
+    margin-left: 12%;
+    width:78%;
+
+}
+
 
 
 /*
