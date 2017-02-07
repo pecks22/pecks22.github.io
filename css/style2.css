@@ -104,7 +104,6 @@ nav  a:hover {
 
 #hiddendiv li{
   text-decoration: none;
-  list-style-type: none;
   font-size: 1.2em;
   font-family: 'Lato', Helvetica, sans-serif;
   font-weight: 300;
@@ -781,6 +780,14 @@ transform: scale(1.3);
   
 }
 
+@media (max-width: 1304px) {
+ #coarbox {
+  font-size:6em;
+ }
+
+  }
+}
+
 @media (max-width: 1250px) {
    .hiking {
     margin-left: 15%;
@@ -902,6 +909,10 @@ transform: scale(1.3);
 
   #hiddendiv {
   height: 22%;
+    height: 38%;
+    display:none !important;
+    width:35%;
+
 }
 
 nav li{
@@ -909,14 +920,9 @@ nav li{
 }
 
 
+#hiddendiv li {
+  font-size:1.8em;
 }
-
-@media (min-width: 940px) {
-
-  #hiddendiv {
-    display:none !important;
-  }
-
 }
 
 
@@ -981,7 +987,7 @@ nav li{
 
 @media (max-width: 818px) {
   #hiddendiv li {
-   font-size: 1em; }
+   font-size: 1.7em; }
 
  }
 
@@ -1169,13 +1175,14 @@ transform: scale(1.3);
 
 #hiddendiv {
   margin-top:8%;
-}
-
-
-#hiddendiv {
   font-size: .9em;
+  height:30%;
 }
 
+
+#hiddendiv li {
+  font-size:1.4em;
+}
 
 
 .contactheading {
@@ -1216,10 +1223,7 @@ transform: scale(1.3);
 
   }
 
-  #hiddendiv {
-  margin-top: 9%;
-  height: 20%;
-}
+
 
   .aboutcoar h1 {
     font-size: 2.5em;
@@ -1288,7 +1292,7 @@ transform: scale(1.3);
 
 @media (max-width: 535px) {
 #hiddendiv {
-  height: 18%;
+  height: 24%;
 }
 
 #wrapper {
@@ -1319,21 +1323,19 @@ transform: scale(1.3);
 
 @media (max-width: 400px) {
 #hiddendiv {
-  height: 15%;
-  margin-top:12%;
-  font-size: .9rem;
-}
+    height: 20%;
+    font-size: 1.1rem;
+    width: 50%;
+
+  }
 
 #hidden {
   font-size: .4em;
+   display: inline-block;
 }
 
 .explore_route {
   height: 350px;
-}
-
-#hidden {
-  display: inline-block;
 }
 
 
@@ -1354,9 +1356,23 @@ transform: scale(1.3);
 
 }
 
+@media (max-width: 384px) {
+
+  #hiddendiv {
+    font-size:.7em;
+  }
+
 
 }
 
+@media (max-width: 384px) {
+
+  #hiddendiv {
+    font-size:..67em;
+  }
+
+
+}
 
 
 
