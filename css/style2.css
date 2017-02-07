@@ -853,7 +853,7 @@ transform: scale(1.3);
 
 
 
-}
+
 
 @media (max-width: 1095px) {
    #coarbox { 
@@ -916,6 +916,7 @@ transform: scale(1.3);
 
 
 
+
 nav li{
   display:none;
 }
@@ -932,7 +933,7 @@ nav li{
     display:none !important;
   }
 
-
+}
 
 
 
@@ -1082,7 +1083,6 @@ nav li{
 }
 
 
-
 }
 
 @media (max-width: 750px) {
@@ -1169,7 +1169,9 @@ transform: scale(1.3);
 @media (max-width: 620px) {
 .contactinfo {
   height:220px;
+
 }
+
 }
 
 @media (max-width: 614px) {
@@ -1360,6 +1362,7 @@ transform: scale(1.3);
 
   font-size:.7em;
 
+}
 }
 
 @media (max-width: 384px) {
