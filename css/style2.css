@@ -30,7 +30,9 @@ nav {
   z-index:10;
  }
 
-
+nav ul{
+  margin-left:3%;
+}
 
 #orange {
   color: #ff6600;
@@ -498,6 +500,10 @@ transform: scale(1.3);
   -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 }
 
+a {
+  display:block;
+  width:100%;
+}
 /*End of Polaroid CSS */
 
 
