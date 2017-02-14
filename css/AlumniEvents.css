@@ -206,7 +206,7 @@ body #title {
 }
 
 .description p {
-	font-size:1em;
+	font-size:1.2em;
 }
 }
 
@@ -223,81 +223,14 @@ body #title {
 
 .description p {
 	margin-top:107%;
-}
-}
-
-
-
-/*
-@media (max-width: 1339px) {
-
-	.belowcal {
-	
-	height:175px;
-
-}
-
-	}
-
-	@media (max-width: 1250px) {
-
-.decription p{
-	font-size:18px;
-
+	font-size:1.1;
 }
 
 .belowcal {
-	
-	height:160px;
-
-	}
-}
-
-
-@media (max-width: 1149px) {
-
-.decription p{
-	font-size:16px;
-
-}
-
-body #title {
-	font-size:200px;
-}
-
-.abovecal {
-	height:150px;
-}
-
-
-
-}
-
-
-@media (max-width: 891px) {
-
-
-
-iframe {
-	width: 80%;
+	height:190px;
 }
 
 }
 
 
-@media (max-width: 891px) {
 
-.decription p{
-	font-size:14px;
-
-}
-
-.belowcal {
-	
-	height:1450px;
-
-	}
-}
-
-
-	} /*

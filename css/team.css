@@ -199,6 +199,9 @@ body {
 		font-size: 100px;
 	}
 
+	.intro_text {
+		padding-top:5%;
+	}
 
 
 	}
@@ -221,8 +224,17 @@ margin-right: 10%;
 
 }
 
+@media (max-width: 866px) {
 
-	@media (max-width: 766px) {
+
+	.intro_text{
+		height:290px;
+	}
+
+}
+
+
+	@media (max-width: 767px) {
 
 	#text .righttext{
 		width: 50%;
@@ -242,16 +254,16 @@ margin-right: 10%;
 		margin-left:2%;
 	}
 
-
-	}
-
-
-@media (max-width: 759px) {
 	#meetleaders {
 	margin-top:0%;
+}
+
+
+
 
 	}
-}
+
+
 
 @media (max-width: 730px) {
 
@@ -275,10 +287,14 @@ margin-right: 10%;
 		font-size: 90px;
 	}
 
+	.intro_text {
+		padding-top:8%;
+	}
+
 
 	}
 
-	
+
 @media (max-width: 594px) {
 
 #christina #text #name {
@@ -331,6 +347,15 @@ margin-right: 10%;
 
 	}
 }
+
+@media (max-width: 537px) {
+	#meetleaders {
+	line-height:1.2;
+
+	}
+}
+
+
 
 
 @media (max-width: 464px) {
