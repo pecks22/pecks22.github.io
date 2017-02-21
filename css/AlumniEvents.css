@@ -279,7 +279,16 @@ body #title {
 }
 
 
+@media (min-width: 1550px) {
+
+ body #title {
+	font-size: 280px;
+
+} 
+
 }
+
+
 
 
 
