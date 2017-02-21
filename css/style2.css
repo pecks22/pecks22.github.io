@@ -18,6 +18,10 @@ header {
 
 
 
+#video:before {
+  background-image: "../images/hikingvidimg.png";
+  z-index:-1;
+}
 
 nav {
   width: 100%;
