@@ -16,6 +16,7 @@ body #title {
     margin-left:10%;
     font-weight:300;
     position:relative;
+    display:block;
 
 }
 
