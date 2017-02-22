@@ -102,10 +102,10 @@ iframe {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 1440px) {
+@media (min-width: 1444px) {
 
  body #title {
-	font-size: 350px;
+	font-size: 300px;
 
 } 
 
