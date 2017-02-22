@@ -102,6 +102,16 @@ iframe {
 
 /* MEDIA QUERIES */
 
+@media (min-width: 1440px) {
+
+ body #title {
+	font-size: 350px;
+
+} 
+
+}
+
+
 @media (max-width: 1196px) {
 
 	body #title {
@@ -288,14 +298,7 @@ body #title {
 }
 
 
-@media (max-width: 1920px) {
 
- body #title {
-	font-size: 400px;
-
-} 
-
-}
 
 
 
