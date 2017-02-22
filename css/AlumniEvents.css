@@ -279,10 +279,10 @@ body #title {
 }
 
 
-@media (min-width: 1550px) {
+@media (max-width: 1920px) {
 
  body #title {
-	font-size: 280px;
+	font-size: 350px;
 
 } 
 
