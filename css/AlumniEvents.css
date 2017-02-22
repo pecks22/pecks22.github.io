@@ -119,6 +119,7 @@ iframe {
     margin-top:23%;
 
 }
+}
 
 @media (max-width: 1048px) {
 
@@ -144,6 +145,7 @@ iframe {
     width:78%;
     line-height:2;
 
+}
 }
 
 @media (max-width: 1006px) {
@@ -269,6 +271,7 @@ body #title {
 	font-size:1em;
 
 }
+}
 
 @media (max-width: 355px) {
 
@@ -280,12 +283,13 @@ body #title {
 .abovecal {
 	height:110px;
 }
+}
 
 
 @media (max-width: 1920px) {
 
  body #title {
-	font-size: 350px;
+	font-size: 400px;
 
 } 
 
