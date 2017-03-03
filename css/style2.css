@@ -137,7 +137,9 @@ nav  a:hover {
 
 }
 
-
+#about img{
+  border-bottom:solid #0F1742 2px ;
+}
 
 .aboutcontainer {
   width: 100%;
@@ -235,6 +237,7 @@ nav  a:hover {
 #call {
   color: #ff6600;
   text-decoration: underline;
+  display:inline-block;
 }
 
 
@@ -637,9 +640,10 @@ a {
   background-color:#0F1742;
   color: #bfbfbf;
   font-family: 'Lato', Helvetica, sans-serif;
-  font-weight:400;
+  font-weight:200;
   font-size: 1.2em;
   position:absolute;
+  border-left: solid orange 20px;
 }
 
 
@@ -678,9 +682,15 @@ a {
   width:100%
   height:auto;
   margin-left:3%;
-  border-left: solid #F0F1EC 2px;
-  margin-top:1%;
+  margin-top:.5%;
 }
+
+.contactinfo a{
+  color:orange;
+
+}
+
+
 
 /* End of Contact Info CSS */
 
