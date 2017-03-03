@@ -119,6 +119,15 @@ body {
 
 /* MEDIA QUERIES */
 
+@media (min-width: 1600px) {
+
+ .bluebackground {
+	display:none;
+
+} 
+
+}
+
 @media (max-width: 1358px) {
 	#meetleaders {
 	font-size: 110px;
