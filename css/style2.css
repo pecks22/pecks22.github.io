@@ -1400,6 +1400,17 @@ transform: scale(1.3);
   
 }
 
+@media (max-width: 334px) {
+
+  #hiddendiv {
+    height:18%;
+  }
+  .text #hidden {
+    padding-top:1%;
+  }
+  
+}
+
 
 
 
