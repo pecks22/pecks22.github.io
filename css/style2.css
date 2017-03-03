@@ -1399,6 +1399,9 @@ transform: scale(1.3);
   .text #hidden {
     padding-top:1%;
   }
+  .text {
+    height:100%;
+  }
   
 }
 
